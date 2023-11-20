@@ -1,5 +1,4 @@
 /*CSS RESET*/
-
 *{
     margin:0;
     padding: 0;
@@ -54,11 +53,11 @@ header{
 
 h2{
     color: #23272A;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
 }
 
 /*NAVBAR*/
-
 .nav-bar{
     height: 100%;
      display: flex;
@@ -119,7 +118,6 @@ p{
 
 /*Main*/
 /*SectionChannels*/
-
 section{
     height: 500px;
     padding: 60px 0px;
@@ -131,8 +129,6 @@ section{
 
 .col-pink{
     min-width: 40%;
-    border: 2px dashed black;
-    background-color: #FFC0CB;
     text-align: center;
     padding: 30px 50px;
 }

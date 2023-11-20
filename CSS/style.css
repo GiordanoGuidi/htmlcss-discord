@@ -1,0 +1,159 @@
+/*CSS RESET*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Utils*/
+header{
+    min-height: 100px;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content:center;
+}
+
+.jumbotron{
+    min-height: 500px;
+    background-color: #00068B;
+    display: flex;
+    justify-content: center;
+}
+
+.section-container{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-items-container{
+    min-width: 70%;
+    display: flex;
+    margin:40px 0px;
+    border: 2px dashed white;
+}
+
+/*Header*/
+.nav-bar{
+    min-width: 70%;
+    background-color: #DAA520;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.col-logo{
+    min-width: 20%;
+    border: 2px dashed black;
+}
+
+.col-link{
+    min-width: 60%;
+    border: 2px dashed black;
+}
+
+.jumbotron-item{
+    min-width: 50%;
+    min-height: 70%;
+    background-color: #ED82EE;
+    margin: 50px 0px;
+    border: 2px dashed black;
+}
+/*Main*/
+/*SectionChannels*/
+
+.col-blue{
+    min-width: 60%;
+    border: 2px dashed black;
+    background-color: #1D91FF;
+}
+
+.col-pink{
+    min-width: 40%;
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+}
+/*SECONDA SEZIONE*/
+.section-container.gray{
+    background-color: #D3D3D3; 
+}
+
+/*QUARTA SEZIONE*/
+.section-container.gray.big{
+    min-height: 1000px;
+}
+    
+.container-big-gray{
+    min-height: 1000px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+}
+
+.col-green-big{
+    background-color: #238B22 ;
+    border: 2px dashed black;
+    min-width: 70%;
+    margin: 40px 0px;
+}
+
+/*FOOTER*/
+/*INFO FOOTER*/
+.section-container.info-footer{
+    min-height: 600px;
+    background-color: #23272A;
+    display: flex;
+   margin-top: 10px;
+}
+
+.col-30w{
+    min-width: 30%;
+    background-color: #F08080;
+    border: 3px dashed black;
+}
+
+.col-70w{
+    min-width: 70%;
+    background-color: #20B2AA;
+    display: flex;
+}
+
+.col-25perc{
+    min-width: 25%;
+    border: 2px dashed white;
+}
+
+.footer.main-items-container{
+    border: 3px dashed black;
+    margin-top: 10px;
+}
+
+/*CONNECTION FOOTER*/
+.connections{
+    background-color: #23272A;
+    min-height: 120px;
+    border-bottom: 3px solid gray;
+    border-top: 3px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+.input-bar{
+    min-width: 70%;
+    background-color: #80FFD4;
+    align-items: flex-end;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-between;
+}
+
+.card-logo,
+.card-button{
+    min-width: 70px;
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    padding: 5px;
+    font-size: 1.2rem ;
+    }

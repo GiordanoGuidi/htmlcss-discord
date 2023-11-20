@@ -7,11 +7,20 @@
 }
 
 /*Utils*/
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
 header{
-    min-height: 100px;
+    height: 100px;
     background-color: #ADD8E6;
     display: flex;
     justify-content:center;
+    padding: 20px 0px;
 }
 
 .jumbotron{
@@ -40,11 +49,19 @@ header{
     min-width: 70%;
     background-color: #DAA520;
     display: flex;
-    margin: 20px 0px;
+}
+
+.card-logo{
+    max-height: 100%;
+    max-width: 20%;
+}
+
+.logo-image{
+    max-width: 100%;
 }
 
 .col-logo{
-    min-width: 20%;
+    max-width: 20%;
     border: 2px dashed black;
 }
 

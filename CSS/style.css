@@ -19,6 +19,7 @@ header{
     background-color: #00068B;
     display: flex;
     justify-content: center;
+    padding: 50px 0px;
 }
 
 .section-container{
@@ -30,7 +31,7 @@ header{
 .main-items-container{
     min-width: 70%;
     display: flex;
-    margin:40px 0px;
+    padding: 40px;
     border: 2px dashed white;
 }
 
@@ -54,9 +55,8 @@ header{
 
 .jumbotron-item{
     min-width: 50%;
-    min-height: 70%;
     background-color: #ED82EE;
-    margin: 50px 0px;
+    padding: 50px 0px;
     border: 2px dashed black;
 }
 /*Main*/
@@ -88,13 +88,14 @@ header{
     background-color: #D3D3D3;
     display: flex;
     justify-content: center;
+    padding: 40px 0px;
 }
 
 .col-green-big{
     background-color: #238B22 ;
     border: 2px dashed black;
     min-width: 70%;
-    margin: 40px 0px;
+    padding: 40px 0px;
 }
 
 /*FOOTER*/
@@ -103,7 +104,7 @@ header{
     min-height: 600px;
     background-color: #23272A;
     display: flex;
-   margin-top: 10px;
+    margin-top: 10px;
 }
 
 .col-30w{
@@ -125,7 +126,7 @@ header{
 
 .footer.main-items-container{
     border: 3px dashed black;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 /*CONNECTION FOOTER*/
@@ -136,13 +137,13 @@ header{
     border-top: 3px solid gray;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .input-bar{
     min-width: 70%;
     background-color: #80FFD4;
     align-items: flex-end;
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content:center;

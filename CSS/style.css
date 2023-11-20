@@ -11,20 +11,27 @@ body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .flex{
     display: flex;
 }
 
 header{
-    height: 100px;
     background-color: #ADD8E6;
-    display: flex;
-    justify-content:center;
     padding: 20px 0px;
 }
 
+.border{
+    border: 2px dashed black;
+
+}
+
 .jumbotron{
-    min-height: 500px;
+    /* min-height: 500px; */
     background-color: #00068B;
     display: flex;
     justify-content: center;
@@ -46,28 +53,21 @@ header{
 
 /*Header*/
 .nav-bar{
-    min-width: 70%;
+    height: 100%;
     background-color: #DAA520;
     display: flex;
+    align-items: center;
 }
 
-.card-logo{
-    max-height: 100%;
-    max-width: 20%;
-}
-
-.logo-image{
-    max-width: 100%;
-}
-
-.col-logo{
-    max-width: 20%;
-    border: 2px dashed black;
+.navbar > *{
+    flex-basis: 20%;
+    padding: 10px 0px;
 }
 
 .col-link{
-    min-width: 60%;
+    flex-grow: 1;
     border: 2px dashed black;
+    text-align: center;
 }
 
 .jumbotron-item{

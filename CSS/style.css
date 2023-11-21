@@ -66,6 +66,10 @@ h2{
     background-color: #8FA1E1;
 }
 
+.column{
+    flex-direction: column;
+}
+
 /*NAVBAR*/
 .nav-bar{
     height: 100%;
@@ -197,19 +201,16 @@ footer{
 
 .col-30w{
     flex-basis: 30%;
-    border: 3px dashed black;
     padding: 30px;
 }
 
 .col-70w{
     flex-basis: 70%;
-    background-color: #20B2AA;
     display: flex;
 }
 
 .col-25perc{
     flex-basis: 25%;
-    border: 2px dashed white;
 }
 
 .language{
@@ -228,6 +229,16 @@ footer{
 
 .social-media{
 gap: 20px;
+}
+
+h4{
+    padding: 10px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 

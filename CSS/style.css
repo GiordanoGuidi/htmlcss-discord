@@ -125,6 +125,10 @@ p{
     background-color: #23272A;
 }
 
+.c-violet{
+    color: #8FA1E1;
+}
+
 /*Main*/
 section{
     height: 500px;
@@ -166,46 +170,71 @@ section{
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
-
 
 .button.container.flex{
     justify-content: center;
 }
 
-/*FOOTER*/
-/*INFO FOOTER*/
-.section-container.info-footer{
-    min-height: 600px;
+/*FOOTER-TOP*/
+footer{
     background-color: #23272A;
+    padding: 50px 0;
+    color: white;
+}
+
+.footer-top{
+    height: 600px;
+    padding-bottom: 30px;
     display: flex;
-    margin-top: 10px;
+}
+
+.footer-nav{
+    width: 100%;
+    display: flex;
 }
 
 .col-30w{
-    min-width: 30%;
-    background-color: #F08080;
+    flex-basis: 30%;
     border: 3px dashed black;
+    padding: 30px;
 }
 
 .col-70w{
-    min-width: 70%;
+    flex-basis: 70%;
     background-color: #20B2AA;
     display: flex;
 }
 
 .col-25perc{
-    min-width: 25%;
+    flex-basis: 25%;
     border: 2px dashed white;
 }
 
-.footer.main-items-container{
-    border: 3px dashed black;
-    padding-top: 10px;
+.language{
+    padding: 30px 0px;
 }
 
-/*CONNECTION FOOTER*/
+.flag-ita{
+    height: 20px;
+    padding: 0px 4px;
+}
+
+.fa-solid.fa-angle-down{
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.social-media{
+gap: 20px;
+}
+
+
+
+
+
+/* CONNECTION FOOTER
 .connections{
     background-color: #23272A;
     min-height: 120px;
@@ -233,4 +262,4 @@ h3{
     border: 2px dashed black;
     padding: 5px;
     font-size: 1.2rem ;
-    }
+    } */
